@@ -47,8 +47,8 @@ for i in range(num_of_enemies):
     enemyImg.append(pygame.image.load('C:\Dev\space invaders/enemy.png'))
     enemyX.append(random.randint(0, 735))
     enemyY.append(random.randint(50, 150))
-    enemyX_vel.append(2)
-    enemyY_vel.append(.2)
+    enemyX_vel.append(4)
+    enemyY_vel.append(.4)
 
 # Bullet
 bulletImg = pygame.image.load('C:\Dev\space invaders/bullet.png')
